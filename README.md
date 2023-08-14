@@ -2,7 +2,7 @@
 <h1>A comprehensive map to act as a guide book into the immeasurable world of Cybersecurity.</h1>
 
 Editor's note* <br/>
-Dear all, the intention of this repository is to list anything and everything related to the field of Cybersecurity. As I continue to learn about this industry, there is just too many things to learn. Don't worry, it's a good thing.
+Dear all, the intention of this repository is to list anything and everything related to the field of Cybersecurity. As I continue to learn about this industry, there is just too many things to digest. I feel like a kid in an all-you-can-eat buffet. Like a teen who just discovered who Zyzz is. Don't worry, it's a good thing.
 
 Feel free to review this repository, or add anything to it.
 
