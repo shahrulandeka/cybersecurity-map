@@ -32,14 +32,14 @@ TCP/IP Model
 
 
 Network Protocols:
-1.	Transmission Control Protocol (TCP)
-2.	Internet Protocol (IP)
-3.	User Datagram Protocol (UDP)
-4.	Post office Protocol (POP)
-5.	Simple mail transport Protocol (SMTP)
-6.	File Transfer Protocol (FTP)
-7.	Hyper Text Transfer Protocol (HTTP)
-8.	Hyper Text Transfer Protocol Secure (HTTPS)
+1.	TCP (Transmission Control Protocol)
+2.	IP (Internet Protocol)
+3.	UDP (User Datagram Protocol)
+4.	POP (Post office Protocol)
+5.	SMTP (Simple mail transport Protocol)
+6.	FTP (File Transfer Protocol)
+7.	HTTP (Hyper Text Transfer Protocol)
+8.	HTTPS (Hyper Text Transfer Protocol Secure)
 9.	Telnet
 10.	Gopher
 11.	ARP (Address Resolution Protocol)
