@@ -19,6 +19,8 @@ Tools:
 8.	SSLyze
 9.	THC-IPV6
 10.	BeEF
+11.	ELK Stack
+12.	Splunk
 
 Frameworks:
 1.	NIST Cybersecurity Framework
