@@ -79,6 +79,29 @@ Network Protocols:
 19.	PPTP (Point To Point Tunneling Protocol)
 20.	SNMP (Simple Network Management Protocol)
 21.	TFTP (Trivial File Transfer Protocol)
+22.	IDS (Intrusion Detection System)
+23.	IPS (Intrusion Prevention System)
+24.	IDE (Integrated Development Software
+
+Types of Malware:
+1. Virus
+2. Worm
+3. Trojan
+4. Ransomware
+5. Spyware
+6. Adware
+7. Phishing
+8. Rootkit
+9. Backdoor
+10. Keystroke Logging
+11. Bot
+12. Botnet
+13. Logic Bomb
+14. Fileless Malware
+15. Mobile Malware
+16. Wiper Malware
+17. Malvertising
+
 
 Acronyms:
 1. CSV Comma-seperated Values
