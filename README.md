@@ -8,6 +8,30 @@ Feel free to review this repository, or add anything to it.
 
 <h2>Whether for good or bad, whichever path you choose to take, have a firm conviction and believe in yourself.</h2>
 
+Languages:
+1. Javascript
+2. Java
+3. HTML
+4. Python
+5. SQL
+6. R
+7. Lisp
+8. C
+9. C#
+10. C++
+11. CSS
+12. PHP
+13. Ruby
+14. Rust
+15. Fortran
+16. Haskell
+17. Dart
+18. Scala
+19. Typescript
+20. Solidity
+21. Swift
+
+
 Tools:
 1.	Burp Suite
 2.	Nessus
@@ -55,3 +79,10 @@ Network Protocols:
 19.	PPTP (Point To Point Tunneling Protocol)
 20.	SNMP (Simple Network Management Protocol)
 21.	TFTP (Trivial File Transfer Protocol)
+
+Acronyms:
+1. CSV Comma-seperated Values
+2. TSV Tab-seperated values
+3. MITM Man-In-The-Middle
+4. DOS Denial-of-Service
+5. DDOS Distributed Denial-of-Service
