@@ -53,12 +53,18 @@ Frameworks:
      2. Protect
      3. Detect
      4. Respond
-     5. Recover 
-2.	Cyber Kill Chain
-3.	STRIDE Attack (spoofing, tampering, repudiation, information disclosure, denial of service, and elevation of privilege.)(commonly used to identify vulnerabilities in six specific attack vectors.)
-4.	Trike Attack Model (open source methodology and tool that takes a security-centric approach to threat modeling. )(commonly used to focus on security permissions, application use cases, privilege models, and other elements that support a secure environment.)
-5.	VAST Attack Model (Visual, Agile, Simple Threat Model)(part of an automated threat-modeling platform called ThreatModeler®.)(Many security teams opt to use VAST as a way of automating and streamlining their threat modeling assessments.)
-6.	PASTA Threat Model Framework (Process for Attack Simulation and Threat Analysis)
+     5. Recover
+2. NIST Incident Response Lifecycle (Cyclical process. This means that phases in the lifecycle can be revisited or repeated as incident investigations progress.)
+   - 4 steps in general
+     1. Preparation
+     2. Detection & Analysis
+     3. Containment, Eradication & Recovery
+     4. Post-Incident Activity
+3.	Cyber Kill Chain
+4.	STRIDE Attack (spoofing, tampering, repudiation, information disclosure, denial of service, and elevation of privilege.)(commonly used to identify vulnerabilities in six specific attack vectors.)
+5.	Trike Attack Model (open source methodology and tool that takes a security-centric approach to threat modeling. )(commonly used to focus on security permissions, application use cases, privilege models, and other elements that support a secure environment.)
+6.	VAST Attack Model (Visual, Agile, Simple Threat Model)(part of an automated threat-modeling platform called ThreatModeler®.)(Many security teams opt to use VAST as a way of automating and streamlining their threat modeling assessments.)
+7.	PASTA Threat Model Framework (Process for Attack Simulation and Threat Analysis)
    - Popularly used across many industries
    - 7 steps
      1. Define the business and security objectives - Before starting, team needs to what their goals are. E.g. Protect customer data. Ask a LOT of questions. Understand things like how PII is handled.
