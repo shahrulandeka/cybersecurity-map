@@ -49,6 +49,7 @@ Tools:
 Frameworks:
 1.	NIST Cybersecurity Framework
 2.	Cyber Kill Chain
+3.	PASTA Threat Model Framework (Process for Attack Simulation and Threat Analysis)
 
 Methodologies:
 1.	Challenger Sales Model
@@ -56,6 +57,21 @@ Methodologies:
 Concepts:
 TCP/IP Model
 
+Types of Attacks:
+1. Cross Site Scripting (XSS)(Used to steal sensitive information)
+   - Reflected 
+   - Stored (hard to know whether a website is infected beforehand)
+   - DOM-based (Document Object Model = basically source code of a website)(Malicious code can be seen in the URL e.g my.website.com/mything?theme=<script>alert(1);</script>)
+
+2. SQL Injection (Web-based exploit)(Occurs due to a lack of sanitized input)
+   - In-band (Classic)(uses the same communication channel to launch the attack and gather the results. E.g. Search box)
+   - Out-of-band (Uncommon)(uses a different communication channel  to launch the attack and gather the results.)
+   - Inferential (Blind)(unable to directly see the results of their attack.)(interpret results by analyzing the behavior of the system)
+   - To defend against this attack,
+       - Prepared Statement: coding technique that executes SQL statements before passing them on to the database
+       - Input sanitization: programming that removes user input which could be interpreted as code.
+       - Input validation: programming that ensures user input meets a system's expectations.
+    - [Useful link](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/07-Input_Validation_Testing/05-Testing_for_SQL_Injection)
 
 Network Protocols:
 1.	TCP (Transmission Control Protocol)
