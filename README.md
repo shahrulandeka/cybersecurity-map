@@ -50,6 +50,15 @@ Frameworks:
 1.	NIST Cybersecurity Framework
 2.	Cyber Kill Chain
 3.	PASTA Threat Model Framework (Process for Attack Simulation and Threat Analysis)
+   - Popularly used across many industries
+   - 7 steps
+     1. Define the business and security objectives - Before starting, team needs to what their goals are. E.g. Protect customer data. Ask a LOT of questions. Understand things like how PII is handled.
+     2. Define the technical scope - Team's focus is to identify the application components that must be evaluated. E.g Identify attack surface.
+     3. Decompose the application - Identify the existing controls that will protect user data from threats. Normally means working with application developers to produce a data flow diagram.
+     4. Perform a threat analysis - Team gets into their attacker mindset. Do research, collect latest information on the types of attack being used. Attack vectors change regularly, so team would reference resources to stay up-to-date.
+     5. Perform a vulnerability analysis - Perform deep investigation by considering the root of the problem. 
+     6. Conduct attack modeling - Team would test the vulnerabilities that were analyzed by simulating attacks. Use an attack tree.
+     7. Analyze risk and impact - Assemble all the information the team has collected from stage 1 to 6. By this stage, the team is in position to make an informed risk management recommendations to business stakeholders that align with their goals.
 
 Methodologies:
 1.	Challenger Sales Model
