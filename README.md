@@ -47,7 +47,13 @@ Tools:
 12.	Splunk
 
 Frameworks:
-1.	NIST Cybersecurity Framework
+1.	NIST CyberSecurity Framework (CSF)
+   - Five core functions
+     1. Identify
+     2. Protect
+     3. Detect
+     4. Respond
+     5. Recover 
 2.	Cyber Kill Chain
 3.	STRIDE Attack (spoofing, tampering, repudiation, information disclosure, denial of service, and elevation of privilege.)(commonly used to identify vulnerabilities in six specific attack vectors.)
 4.	Trike Attack Model (open source methodology and tool that takes a security-centric approach to threat modeling. )(commonly used to focus on security permissions, application use cases, privilege models, and other elements that support a secure environment.)
