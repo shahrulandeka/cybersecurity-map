@@ -33,6 +33,9 @@ Languages:
 
 
 Tools:
+- Detection and Management Tools
+- Documentation Tools
+- Investigative Tools
 1.	Burp Suite
 2.	Nessus
 3.	OpenVAS
@@ -44,7 +47,22 @@ Tools:
 9.	THC-IPV6
 10.	BeEF
 11.	ELK Stack
-12.	Splunk
+12.	Splunk (SIEM)
+13.	AlienVault® OSSIM™ (SIEM)
+14.	Chronicle (SIEM)
+15.	Elastic (SIEM)
+16.	Exabeam (SIEM)
+17.	IBM QRadar® Security Intelligence Platform (SIEM)
+18.	LogRhythm (SIEM)
+19.	Jira (Ticketing System)
+20.	Snort (IDS/IPS)
+21.	Zeek (IDS/IPS)
+22.	Kismet (IDS/IPS)
+23.	Sagan (IDS/IPS)
+24.	Suricata (IDS/IPS)
+25.	Open EDR® (EDR)
+26.	Bitdefender™ Endpoint Detection and Response (EDR)
+27.	FortiEDR™ (EDR)
 
 Frameworks:
 1.	NIST CyberSecurity Framework (CSF)
@@ -118,6 +136,13 @@ Types of Attacks:
        - Input validation: programming that ensures user input meets a system's expectations.
     - [Useful link](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/07-Input_Validation_Testing/05-Testing_for_SQL_Injection)
 
+Types of Documentations:
+1. Playbooks
+2. Incident Handler's Journal
+3. Policies
+4. Plans
+5. Final Reports
+
 Network Protocols:
 1.	TCP (Transmission Control Protocol)
 2.	IP (Internet Protocol)
@@ -163,6 +188,16 @@ Types of Malware:
 16. Wiper Malware
 17. Malvertising
 
+IDS Detection Categories:
+1. A true positive is an alert that correctly detects the presence of an attack.
+2. A true negative is a state where there is no detection of malicious activity. This is when no malicious activity exists and no alert is triggered.
+3. A false positive is an alert that incorrectly detects the presence of a threat. This is when an IDS identifies an activity as malicious, but it isn't. False positives are an inconvenience for security teams because they spend time and resources investigating an illegitimate alert.
+4. A false negative is a state where the presence of a threat is not detected. This is when malicious activity happens but an IDS fails to detect it. False negatives are dangerous because security teams are left unaware of legitimate attacks that they can be vulnerable to. 
+
+SIEM Process:
+1. Collect and aggregate data
+2. Normalize data
+3. Analyze data
 
 Acronyms:
 1. CSV Comma-seperated Values
@@ -170,3 +205,17 @@ Acronyms:
 3. MITM Man-In-The-Middle
 4. DOS Denial-of-Service
 5. DDOS Distributed Denial-of-Service
+6. CSIRT Computer Security Incident Response Team
+7. IHT Incident Handling Team
+8. SIRT Security Incident Response Team
+9. NIST National Institute of Standards and Technology
+10. SOC Security Operations Center
+11. IDS Intrusion Detection System - An application that monitors system and network activity and produces alerts on possible intrusions.
+12. IPS Intrusion Prevention System - An application that monitors system activity for intrusions and take action to stop the activity.
+13. EDR Endpoint Detection and Response
+14. SIEM Security information and event management - An application that collects and analyzes log data to monitor critical activities in an organization.
+15. SOAR Security Orchestration, Automation & Response - A collection of applications, tools and workflows that use automation to respond to security events.
+
+Terms:
+1. Endpoint - Any device connected on a network
+2. Parsing - Maps data according to their fields and their corresponding values. 
