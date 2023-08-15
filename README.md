@@ -55,7 +55,22 @@ Methodologies:
 1.	Challenger Sales Model
 
 Concepts:
-TCP/IP Model
+1. TCP/IP Model
+2. Threat Modelling (The process of identifying assets, their vulnerabiliities and how each is exposed to threats)
+   - A lengthy and detailed process usually performed by a group of individuals with years of experience in the field.
+   - Considered to be an advanced skill in cybersecurity
+   - Each threat model can be tailored differently, e.g. for network security, Information Security or application development.
+   - 6 steps
+     1. Define the scope - Determine what you're building by building an inventory of assets and classifying them.
+     2. Identify threats - Define all potential threat actors, internal or external. After which you'll put together an Attack Tree.
+     3. Characterize the environment - Apply an attacker mindset to the business. Factor in how customers or employees interact with the environment, as well as external partners and third party vendors.
+     4. Analyze threats - Examine existing protections and identify gaps. Then, rank threats according to their assigned risk score.
+     5. Mitigate risks - Create plan for defending against threats. Either you avoid risk, transfer it, reduce it or accept it.
+     6. Evaluate findings - Document EVERYTHING during your exercise. Fixes should have been applied, makes notes of your successes. Record any lessons learned, so you can inform how you approach future threat models.
+4. Attack Tree (A diagram that maps threats to assets)
+   - [Example 1]<br><img src="https://i.imgur.com/xr4pW7b.png" height="80%" width="80%" alt="Example 1"/>
+   - [Example 2]<br><img src="https://i.imgur.com/RCZjoMq.png" height="80%" width="80%" alt="Example 2"/>
+   - [Example 3]<br><img src="https://i.imgur.com/drK6qz8.png" height="80%" width="80%" alt="Example 3"/>
 
 Types of Attacks:
 1. Cross Site Scripting (XSS)(Used to steal sensitive information)
