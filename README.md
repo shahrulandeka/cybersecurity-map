@@ -222,6 +222,7 @@ Acronyms:
 15. SIEM Security information and event management - An application that collects and analyzes log data to monitor critical activities in an organization.
 16. SOAR Security Orchestration, Automation & Response - A collection of applications, tools and workflows that use automation to respond to security events.
 17. IOC Indicators of Compromise - Observable evidence that suggests signs of a potential security incident.
+18. NIC Network Interface Card 
 
 Terms:
 1. Endpoint - Any device connected on a network
