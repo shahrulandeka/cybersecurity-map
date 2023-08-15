@@ -49,7 +49,10 @@ Tools:
 Frameworks:
 1.	NIST Cybersecurity Framework
 2.	Cyber Kill Chain
-3.	PASTA Threat Model Framework (Process for Attack Simulation and Threat Analysis)
+3.	STRIDE Attack (spoofing, tampering, repudiation, information disclosure, denial of service, and elevation of privilege.)(commonly used to identify vulnerabilities in six specific attack vectors.)
+4.	Trike Attack Model (open source methodology and tool that takes a security-centric approach to threat modeling. )(commonly used to focus on security permissions, application use cases, privilege models, and other elements that support a secure environment.)
+5.	VAST Attack Model (Visual, Agile, Simple Threat Model)(part of an automated threat-modeling platform called ThreatModeler®.)(Many security teams opt to use VAST as a way of automating and streamlining their threat modeling assessments.)
+6.	PASTA Threat Model Framework (Process for Attack Simulation and Threat Analysis)
    - Popularly used across many industries
    - 7 steps
      1. Define the business and security objectives - Before starting, team needs to what their goals are. E.g. Protect customer data. Ask a LOT of questions. Understand things like how PII is handled.
@@ -76,6 +79,12 @@ Concepts:
      4. Analyze threats - Examine existing protections and identify gaps. Then, rank threats according to their assigned risk score.
      5. Mitigate risks - Create plan for defending against threats. Either you avoid risk, transfer it, reduce it or accept it.
      6. Evaluate findings - Document EVERYTHING during your exercise. Fixes should have been applied, makes notes of your successes. Record any lessons learned, so you can inform how you approach future threat models.
+     7. One of the keys to threat modeling is asking the right questions:
+         - What are we working on?
+         - What kinds of things can go wrong?
+         - What are we doing about it?
+         - Have we addressed everything?
+         - Did we do a good job?
 4. Attack Tree (A diagram that maps threats to assets)
    - [Example 1]<br><img src="https://i.imgur.com/xr4pW7b.png" height="80%" width="80%" alt="Example 1"/>
    - [Example 2]<br><img src="https://i.imgur.com/RCZjoMq.png" height="80%" width="80%" alt="Example 2"/>
