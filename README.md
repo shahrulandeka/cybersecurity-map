@@ -199,6 +199,11 @@ SIEM Process:
 2. Normalize data
 3. Analyze data
 
+Components of a packet:
+1. Header - includes info like the type of network protocol and port being used. Also contains packet's source and destination IP address.
+2. Payload - Actual data
+3. Footer
+
 Acronyms:
 1. CSV Comma-seperated Values
 2. TSV Tab-seperated values
@@ -209,13 +214,23 @@ Acronyms:
 7. IHT Incident Handling Team
 8. SIRT Security Incident Response Team
 9. NIST National Institute of Standards and Technology
-10. SOC Security Operations Center
-11. IDS Intrusion Detection System - An application that monitors system and network activity and produces alerts on possible intrusions.
-12. IPS Intrusion Prevention System - An application that monitors system activity for intrusions and take action to stop the activity.
-13. EDR Endpoint Detection and Response
-14. SIEM Security information and event management - An application that collects and analyzes log data to monitor critical activities in an organization.
-15. SOAR Security Orchestration, Automation & Response - A collection of applications, tools and workflows that use automation to respond to security events.
+10. SOC Security Operations Center - focused on maintaining the security of an organization through detection and response.
+11. NOC Network Operations Center - responsible for maintaining network performance, availability, and uptime.
+12. IDS Intrusion Detection System - An application that monitors system and network activity and produces alerts on possible intrusions.
+13. IPS Intrusion Prevention System - An application that monitors system activity for intrusions and take action to stop the activity.
+14. EDR Endpoint Detection and Response
+15. SIEM Security information and event management - An application that collects and analyzes log data to monitor critical activities in an organization.
+16. SOAR Security Orchestration, Automation & Response - A collection of applications, tools and workflows that use automation to respond to security events.
+17. IOC Indicators of Compromise - Observable evidence that suggests signs of a potential security incident.
 
 Terms:
 1. Endpoint - Any device connected on a network
-2. Parsing - Maps data according to their fields and their corresponding values. 
+2. Parsing - Maps data according to their fields and their corresponding values.
+3. Network Traffic - The amount of data that moves across a network.
+4. Network Data - The data that's transmitted between devices on a network.
+5. Data Exfiltration - Unauthorized transmission of data from a system.
+6. Lateral Movement/ Pivoting: Hacking technique to remain undetected in a network for as long as possible.
+7. Network Protocol - A set of rules that determine the transmission of data on a network.
+8. Ports - Non-physical locations on a computer that organized data transmission between devices on a network.
+9. Network Protocal Analyzer/ Packet Sniffer - Tool designed to capture and analyze data traffic within a network.
+10. Packet Capture/P-Cap - A file containing data packets intercepted from an interface or network.
